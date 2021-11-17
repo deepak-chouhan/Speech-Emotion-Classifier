@@ -7,7 +7,7 @@ The idea behind this project is to build a Machine learning model which evaluate
 #### 1. Speech Emotion recognition
   - Main use of this model will be to check if the Human in the audio is nervous or not.
 
-#### 2. Speech Acuracy analyzer
+#### 2. Speech Accuracy analyzer
   - This will be used to analyse the content of the speech and a score will be generate based on it
 
 #### 3. Filler words detector
