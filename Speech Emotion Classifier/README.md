@@ -5,6 +5,7 @@
 The purpose behind this project is to build a model which can classify human emotion in different categories from an Audio file.
 
 Categories we are looking to classify:
+> - **Neutral**
 > - **Nervous**
 > - **Happy**
 > - **Fearful**
