@@ -5,6 +5,7 @@ Approach:
 - The purpose of this project is to take the audio file as input and classify emotions ("Calm", "Sad", "Happy", "Fearful", "Angry") in it.
 - This Model is part of a project where we analyse the Speech/Presentation given by user with the help of machine learning.
 - Used the RAVDESS dataset, which includes audio sample of different actors of both genders which is helpful for better Accuracy.
+- Develope a ML Model with the accuracy around 90% to classify between 5 different emotions.
 
 
 
