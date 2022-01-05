@@ -36,3 +36,21 @@ So, here's an example of an audio filename. `02-01-06-01-02-01-12.wav` This mean
 > - Statement "dogs" (02)
 > - 1st Repetition (01)
 > - 12th Actor (12) - Female (as the actor ID number is even)
+
+## Proposed system
+This model is created using Deep neural network, we use Sequential model API to create neural network of our model to predict emotion in audio file. The Sequential model API is a way of creating deep learning models where an instance of the Sequential class is created and model layers are created and added to it.
+
+The emotion classifier classifies the emotion out of 5 categories
+- Calm
+- Happy
+- Sad
+- Angry
+- Fearful
+
+The steps involved for predicting the emotion from audio:-
+
+- The Model takes audio file as an input and with the help of the python library “Librosa”. 
+- We extract the features, then we reshape the features by [1, 40, 1], so that it matches with the machine learning model input type. 
+- After reshaping it, we feed the data to our machine learning model. 
+- In return the model gives us the array of number which we need to decode the help of “Label Encoder”. It has a function provided specifically for the task called “inverse_transform”
+- Once we have decoded the array of number, we will get the exact emotion of Audio speech given by user.
